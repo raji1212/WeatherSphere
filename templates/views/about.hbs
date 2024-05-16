@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!--main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto ps-3">
+                <div class="row">
+                    <!-- LEFT SIDE DIV-->
+                    <div class="col-md-6 col-12 main_header_left">
+                         <p>Welcome to WeatherSphere</p>
+                         <h2>This is a dynamic website created using Express.js <span class="text_clr">Weather</span> info</h2>
+                         <a href="/weather"><button>Check now</button></a>
+                    </div>
+                    <!-- RIGHT SIDE DIV-->
+                    <div class="col-md-6 col-12 main_header_right align-itens-center">
+                        <figure>
+                            <img src="images/me.png" alt="raj" class="img-fluid" title="WeatherSphere">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-->
+{{>footer}}
+</body>
+</html>
